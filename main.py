@@ -28,4 +28,4 @@ model.fit(train_images, train_labels, epochs=5, batch_size=128)
 
 test_digits = test_images[0:10]
 predictions = model.predict(test_digits)
-print(predictions[0].argmax(),"\n",test_labels[0])
+print(predictions[5].argmax(),"\n",test_labels[5])
